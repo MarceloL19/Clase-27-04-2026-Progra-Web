@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE ENTRADAS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="contenido-cabecera">
+            <img class="logo" src="https://www.ulima.edu.pe/themes/custom/ulima/logo.svg" alt="Ulima-Logo">
+            <div>
+                <h1>BIENVENIDO A LA VENTA DE ENTRADAS - CINEULIMA</h1>
+                <h2>El precio de cada entrada es de S/ 12.00</h2>
+                <h3>Si compra 5 entradas, tendrá un descuento de S/.10</h3>
+                <h3>Ingrese el número de entradas que desea comprar:</h3>
+
+                <input type="number" id="numEntradas" class="entrada" placeholder="Ingrese el número de entradas">
+                <button class="entrada1" onclick="calcularTotal()">Calcular Total</button>
+
+                <p class ="resultado" id="resultado"></p>
+            </div>
+        </div>
+    </header>
+
+    <footer>
+        <p>© 2026 Cine Ulima - Práctica de HTML</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Spotify</title>
+
+  <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <img
+        class="logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg"
+        alt="Logo Spotify"
+      >
+      <div>
+        <h1>Mini Spotify</h1>
+        <p>Explora canciones, álbumes y playlists favoritas</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#top">Top canciones</a></li>
+      <li><a href="#albums">Álbumes</a></li>
+      <li><a href="#playlists">Playlists</a></li>
+      <li><a href="#search">Buscar</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+
+    <section id="top" class="card-section">
+      <h2>Top canciones</h2>
+      <p class="section-text">Una tabla simple para practicar etiquetas HTML básicas.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Portada</th>
+            <th>Canción</th>
+            <th>Artista</th>
+            <th>Duración</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              <img
+                class="table-cover"
+                src="/album.png"
+                alt="Álbum 1"
+              >
+            </td>
+            <td>Midnight Echo</td>
+            <td>Nova Lights</td>
+            <td>3:45</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <img
+                class="table-cover"
+                src="/album.png"
+                alt="Álbum 2"
+              >
+            </td>
+            <td>Neon Run</td>
+            <td>Sky Pulse</td>
+            <td>4:02</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <img
+                class="table-cover"
+                src="/album.png"
+                alt="Álbum 3"
+              >
+            </td>
+            <td>Golden Waves</td>
+            <td>Luna Park</td>
+            <td>2:58</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="albums" class="card-section">
+      <h2>Álbumes populares</h2>
+      <div class="albums">
+
+        <article class="album-card">
+          <img
+            src="/album.png"
+            alt="Álbum Midnight Echo"
+          >
+          <h3>Midnight Echo</h3>
+          <p>Nova Lights</p>
+        </article>
+
+        <article class="album-card">
+          <img
+            src="/album.png"
+            alt="Álbum Neon Run"
+          >
+          <h3>Neon Run</h3>
+          <p>Sky Pulse</p>
+        </article>
+
+        <article class="album-card">
+          <img
+            src="/album.png"
+            alt="Álbum Golden Waves"
+          >
+          <h3>Golden Waves</h3>
+          <p>Luna Park</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="playlists" class="card-section two-columns">
+      <div>
+        <h2>Playlists destacadas</h2>
+        <ul>
+          <li>Top Hits 2026</li>
+          <li>Focus Mode</li>
+          <li>Workout Energy</li>
+          <li>Chill Night</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Ranking personal</h2>
+        <ol>
+          <li>Midnight Echo</li>
+          <li>Golden Waves</li>
+          <li>Neon Run</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="search" class="card-section">
+      <h2>Buscar canción</h2>
+      <form class="search-form">
+        <label for="song">Canción</label>
+        <input type="text" id="song" placeholder="Ej. Midnight Echo">
+
+        <label for="artist">Artista</label>
+        <input type="text" id="artist" placeholder="Ej. Nova Lights">
+
+        <label for="genre">Género</label>
+        <select id="genre">
+          <option>Pop</option>
+          <option>Rock</option>
+          <option>Electrónica</option>
+          <option>Indie</option>
+        </select>
+
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Mini Spotify - Práctica de HTML, CSS y Git</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+.cabecera {
+  background: linear-gradient(135deg, #ec6a00, #ffffff);
+  padding: 30px 20px;
+}
+
+.contenido-cabecera {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Ulima-Logo {
+  width: 80px;
+  height: 80px;
+}
+
+.entrada {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.entrada1 {
+  background-color: #ffa857;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}   
+
+button {
+  background-color: #ec6a00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}   
+
+.resultado {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff7300;
+}
