@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+.promedio{
+    color: blue;
+    font-weight: bold;
+}
+
